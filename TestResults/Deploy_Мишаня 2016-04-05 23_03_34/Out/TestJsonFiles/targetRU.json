@@ -1,0 +1,13 @@
+{
+  "MENU": {
+    "SCHEDULES": "Календари"
+  },
+  "SCHEDULES": {
+    "HEADER": "Список календарей",
+    "ADD_SCHEDULE": "Добавить календарь",
+    "EDIT_SCHEDULE": "Редактировать календарь",
+    "NEW_SCHEDULE": "Новый календарь",
+    "SCHEDULE_NAME": "Имя календаря",
+    "SCHEDULE_NAME_REQUIRED": "Введите имя календаря"
+  }
+}

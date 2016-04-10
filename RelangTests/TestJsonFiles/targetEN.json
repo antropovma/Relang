@@ -1,0 +1,13 @@
+{
+  "MENU": {
+    "SCHEDULES": "Schedules"
+  },
+  "SCHEDULES": {
+    "HEADER": "Schedule list",
+    "ADD_SCHEDULE": "Add schedule",
+    "EDIT_SCHEDULE": "Edit schedule",
+    "NEW_SCHEDULE": "New schedule",
+    "SCHEDULE_NAME": "Schedule name",
+    "SCHEDULE_NAME_REQUIRED": "Please enter name of schedule."
+  }
+}

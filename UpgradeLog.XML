@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Relang">
+</Property><Property Name="Solution File" Value="D:\Projects\Relang\Relang\Relang.sln">
+</Property><Property Name="Date" Value="5 апреля 2016 г.">
+</Property><Property Name="Time" Value="10:07">
+</Property></Properties><Event ErrorLevel="0" Project="Relang" Source="Relang\Relang.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="Relang" Source="Relang\Relang.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="RelangTests" Source="RelangTests\RelangTests.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="RelangTests" Source="RelangTests\RelangTests.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="Relang.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Relang.sln" Description="Converted">
+</Event></UpgradeLog>

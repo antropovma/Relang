@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Translator xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Path>D:\Relang</Path>
+  <Folder>i18n</Folder>
+  <Langs>
+    <Lang>
+      <Name>ru</Name>
+      <Caption>Russish</Caption>
+      <Visible>true</Visible>
+    </Lang>
+    <Lang>
+      <Name>en</Name>
+      <Caption>English</Caption>
+      <Visible>true</Visible>
+    </Lang>
+    <Lang>
+      <Name>fr</Name>
+      <Caption>Хранцуский</Caption>
+      <Visible>true</Visible>
+    </Lang>
+  </Langs>
+</Translator>
