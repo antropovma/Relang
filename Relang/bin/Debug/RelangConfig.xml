@@ -16,7 +16,12 @@
     <Lang>
       <Name>fr</Name>
       <Caption>Хранцуский</Caption>
-      <Visible>true</Visible>
+      <Visible>false</Visible>
+    </Lang>
+    <Lang>
+      <Name>ch</Name>
+      <Caption>China</Caption>
+      <Visible>false</Visible>
     </Lang>
   </Langs>
 </Translator>

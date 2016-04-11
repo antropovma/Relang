@@ -31,3 +31,15 @@ D:\Работа\Relang\Relang\RelangTests\bin\Debug\Newtonsoft.Json.xml
 D:\Работа\Relang\Relang\RelangTests\obj\Debug\RelangTests.csprojResolveAssemblyReference.cache
 D:\Работа\Relang\Relang\RelangTests\obj\Debug\RelangTests.dll
 D:\Работа\Relang\Relang\RelangTests\obj\Debug\RelangTests.pdb
+D:\Работа\GIT\Relang\RelangTests\bin\Debug\TestJsonFiles\targetEN.json
+D:\Работа\GIT\Relang\RelangTests\bin\Debug\TestJsonFiles\targetRU.json
+D:\Работа\GIT\Relang\RelangTests\bin\Debug\TestJsonFiles\test.json
+D:\Работа\GIT\Relang\RelangTests\bin\Debug\RelangTests.dll
+D:\Работа\GIT\Relang\RelangTests\bin\Debug\RelangTests.pdb
+D:\Работа\GIT\Relang\RelangTests\bin\Debug\Relang.exe
+D:\Работа\GIT\Relang\RelangTests\bin\Debug\Newtonsoft.Json.dll
+D:\Работа\GIT\Relang\RelangTests\bin\Debug\Relang.pdb
+D:\Работа\GIT\Relang\RelangTests\bin\Debug\Newtonsoft.Json.xml
+D:\Работа\GIT\Relang\RelangTests\obj\Debug\RelangTests.csprojResolveAssemblyReference.cache
+D:\Работа\GIT\Relang\RelangTests\obj\Debug\RelangTests.dll
+D:\Работа\GIT\Relang\RelangTests\obj\Debug\RelangTests.pdb

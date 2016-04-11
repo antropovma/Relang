@@ -60,10 +60,35 @@ namespace Relang
             path = path.TrimEnd('\\') + "\\" + Name + ".json";
             LangPath = path;
             Items.Clear();
-            if (!File.Exists(path)) return;
 
-            JObject obj = JObject.Parse(File.ReadAllText(path, Encoding.Default));
+            if (!File.Exists(path))
+            {
+                var file = File.CreateText(LangPath);
+                file.WriteLine("{}");
+                file.Close();
+            }
+
+            Encoding currentEncoding = DetectEncoding(LangPath);
+            JObject obj = JObject.Parse(File.ReadAllText(path, currentEncoding));
             ParseJson(Items, obj);
+        }
+
+        /// <summary>
+        /// Detect encoding for input file.
+        /// </summary>
+        /// <param name="path">Path to input file</param>
+        /// <returns>Encoding of file (UTF8 or windows-1251)</returns>
+        private Encoding DetectEncoding(string path)
+        {
+            BinaryReader instr = new BinaryReader(File.OpenRead(path));
+            //byte[] data = instr.ReadBytes((int)instr.BaseStream.Length);
+            byte[] data = instr.ReadBytes(3);
+            instr.Close();
+
+            // определяем BOM (EF BB BF)
+            if (data.Length > 2 && data[0] == 0xef && data[1] == 0xbb && data[2] == 0xbf)
+                return Encoding.UTF8;
+            return Encoding.GetEncoding(1251);
         }
 
         /// <summary>
@@ -86,12 +111,10 @@ namespace Relang
         public void Save()
         {
             JObject jObject = new JObject();
-            foreach(var item in Items.Keys)
-            {
+            foreach (var item in Items.Keys)
                 CreateJson(jObject, item, Items[item]);
-            }
             if (LangPath != null)
-                File.WriteAllText(LangPath, jObject.ToString(), Encoding.Default);
+                File.WriteAllText(LangPath, jObject.ToString(), Encoding.UTF8);
         }
 
         /// <summary>

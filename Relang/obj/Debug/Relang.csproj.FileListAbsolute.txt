@@ -33,3 +33,15 @@ D:\Работа\Relang\Relang\Relang\obj\Debug\Relang.ConfigurationForm.resource
 D:\Работа\Relang\Relang\Relang\obj\Debug\Relang.Relang.resources
 D:\Работа\Relang\Relang\Relang\obj\Debug\Relang.Properties.Resources.resources
 D:\Работа\Relang\Relang\Relang\obj\Debug\Relang.csproj.GenerateResource.Cache
+D:\Работа\GIT\Relang\Relang\bin\Debug\Relang.exe.config
+D:\Работа\GIT\Relang\Relang\obj\Debug\Relang.exe
+D:\Работа\GIT\Relang\Relang\obj\Debug\Relang.pdb
+D:\Работа\GIT\Relang\Relang\bin\Debug\Relang.exe
+D:\Работа\GIT\Relang\Relang\bin\Debug\Relang.pdb
+D:\Работа\GIT\Relang\Relang\bin\Debug\Newtonsoft.Json.dll
+D:\Работа\GIT\Relang\Relang\bin\Debug\Newtonsoft.Json.xml
+D:\Работа\GIT\Relang\Relang\obj\Debug\Relang.csprojResolveAssemblyReference.cache
+D:\Работа\GIT\Relang\Relang\obj\Debug\Relang.ConfigurationForm.resources
+D:\Работа\GIT\Relang\Relang\obj\Debug\Relang.Relang.resources
+D:\Работа\GIT\Relang\Relang\obj\Debug\Relang.Properties.Resources.resources
+D:\Работа\GIT\Relang\Relang\obj\Debug\Relang.csproj.GenerateResource.Cache
